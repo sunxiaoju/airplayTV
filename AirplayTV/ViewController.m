@@ -25,6 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.view.backgroundColor = [UIColor lightGrayColor];
     self.title = @"airplayDome";
     videoV = [[VideoView alloc] init];
     videoV.frame = CGRectMake(0, 70, self.view.frame.size.width, 300);
