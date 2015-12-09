@@ -12,8 +12,10 @@
 @interface ViewController (){
 
     VideoView *videoV ;
+    int k;
 
 }
+
 //将视频镜像到支持airplay的设备上的view按钮
 @property(nonatomic,strong)MPVolumeView *airplayView;
 
