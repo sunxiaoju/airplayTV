@@ -19,6 +19,12 @@
         [self makeToolView];
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapClick)];
         [self addGestureRecognizer:tap];
+        /////
+        
+        /////
+        ////
+        ////
+        ///
         
     }
     return self;
